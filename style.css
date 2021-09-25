@@ -132,7 +132,6 @@ header {
     object-position: center;
     margin: 10px;
     object-fit: cover;
-    cursor: pointer;
 }
 
 .burger_descripcion {
