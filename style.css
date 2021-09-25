@@ -125,15 +125,6 @@ header {
     object-fit: cover;
 }
 
-.burger_imagen:hover {
-    border-radius: 50%;
-    width: 120%;
-    height: 120%;
-    object-position: center;
-    margin: 10px;
-    object-fit: cover;
-}
-
 .burger_descripcion {
     display: flex;
     justify-content: center;
