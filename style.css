@@ -10,10 +10,11 @@ html {
 }
 
 ::-webkit-scrollbar {
-    display: none;}
+    display: none;
+}
 
 a:visited {
-    color:#fff
+    color: rgb(26, 26, 26);
 }
 
 a {
@@ -176,19 +177,18 @@ footer {
     line-height: 55px;
     bottom: 30px;
     right: 30px;
-    background: #46C756;
+    background: #46c756;
     columns: #fff;
     border-radius: 50px;
     text-align: center;
     font-size: 30px;
-    box-shadow: 0px 1px 10px rgba(red, green, blue, .3);
+    box-shadow: 0px 1px 10px rgba(red, green, blue, 0.3);
     z-index: 100;
-
-
 }
+
 .btn_whatsapp:hover {
     text-decoration: none;
-    color: #46C756;
+    color: #46c756;
     background: #fff;
 }
 
@@ -209,5 +209,4 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
-
 }
