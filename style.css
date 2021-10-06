@@ -14,7 +14,6 @@ html {
 }
 
 a {
-    color: rgb(0, 0, 0);
     text-decoration: none;
 }
 
@@ -281,7 +280,7 @@ footer {
 
 /* <--MEDIA QUERIES--> */
 
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 1200px) {
     .btn_whatsapp {
         visibility: hidden;
         position: fixed;
