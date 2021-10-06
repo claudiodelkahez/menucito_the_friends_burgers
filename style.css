@@ -21,6 +21,10 @@ a:visited {
     color: rgb(255, 255, 255);
 }
 
+h1 a:visited {
+    color: rgb(19, 19, 19);
+}
+
 @keyframes transitionIn {
     from {
         opacity: 0;
@@ -83,6 +87,14 @@ h1 {
 .cabecera_descripcion {
     font-size: 14px;
 }
+
+.cabecera_titulo {
+    padding-top: 10px;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    background: rgb(219, 51, 51);
+}
 .header_titulo {
     display: flex;
     justify-content: center;
@@ -91,7 +103,7 @@ h1 {
     padding-bottom: 10px;
 
     text-align: center;
-    font-size: 16px;
+    font-size: 15px;
     font-weight: 600;
 
     border-top: dotted 1px grey;
@@ -280,14 +292,10 @@ footer {
 
 /* <--MEDIA QUERIES--> */
 
-@media screen and (min-width: 1200px) {
+
+@media screen and (min-width: 1024px) {
     .btn_whatsapp {
         visibility: hidden;
-        position: fixed;
-        width: 55px;
-        height: 55px;
-        line-height: 55px;
-        bottom: 15px;
-        right: 15px;
+        
     }
 }
