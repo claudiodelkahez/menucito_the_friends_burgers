@@ -1,0 +1,69 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    font-size: 62.5%;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+}
+
+
+body {
+    height: 100vh;
+
+    height: 90%;
+    width: 90%;
+
+    display: flex;
+    align-items: center;
+
+    flex-direction: column;
+}
+
+section {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+a {
+    text-decoration: none;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    color: black;
+    font-size: 2rem;
+    border-bottom: solid 2px transparent;
+
+}
+
+a:hover {
+    text-decoration: solid;
+    border-bottom: solid 2px black;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    width: 90%;
+}
+.logothefriendsburgers {
+    max-width: 350px;
+}
+
+.link_entrar {
+    padding-top: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
